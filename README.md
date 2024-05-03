@@ -21,7 +21,7 @@ but will bypass any client-side check related to the KDC certificate.
 In patch mode (-PatchLsass), the KerbCheckKdcCertificate function in LSASS will be patched.
 As KerbCheckKdcCertificate is not exported by kerberos.dll, symbols need to be retrieved.
 For the symbols to be automatically retrieved by this cmdlet, the environment variable 
-_NT_SYMBOL_PATH needs to be defined (e.g. SRV*c:\symbols*https://msdl.microsoft.com/download/symbols).
+_NT_SYMBOL_PATH needs to be defined (e.g. `SRV*c:\symbols*https://msdl.microsoft.com/download/symbols`).
 If the symbols are not already on disk, an Internet connection is needed to download them.
 The Windows SDK is also needed to download the symbols. By default, the script will
 look in C:\Program Files (x86)\Windows Kits\10\Debuggers\x64 to find the DLLs it
