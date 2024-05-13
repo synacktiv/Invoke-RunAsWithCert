@@ -27,7 +27,7 @@ The Windows SDK is also needed to download the symbols. By default, the script w
 look in `C:\Program Files (x86)\Windows Kits\10\Debuggers\x64` to find the DLLs it
 needs (`dbghelp.dll` and `symsrv.dll`).
 
-For a more detailed explanation, see the associated [blogpost](https://synacktiv.com).
+For a more detailed explanation, see the associated [blogpost](https://www.synacktiv.com/publications/understanding-and-evading-microsoft-defender-for-identity-pkinit-detection).
 
 ## Usage
 
